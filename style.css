@@ -1,0 +1,125 @@
+body {
+			
+	font-family: Georgia;
+	background-color: #7a212e;
+}
+
+div {
+
+	padding:0px;
+	margin:0px;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	width:20%;
+    float: left;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#header {
+}
+
+#tutcontent {
+	visibility: hidden;
+}
+
+#navigation {
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+.fixed {
+	position: fixed;
+  	top: 0;
+  	left:0;
+  	z-index: 1000;
+  	width 100%;
+}
+
+.fixedTOC {
+	position: fixed;
+  	top: 46px;
+  	left:15px;
+  	z-index: 1000;
+
+  	width 25px;
+}
+
+.static {
+
+	position: static;
+	z-index: 1000;
+	left:0;
+	width:25%;
+}
+
+.staticTOC {
+	position: static;
+	z-index: 1000;
+	left:0;
+}
+
+#content {
+	background-color: #f1f1f1;
+}
+
+.adjustContent {
+	padding-top:50px;
+	padding-left: 230px;
+}
+
+.fixContent {
+	padding-top:0px;
+}
+
+#TOC {
+	width:225px;
+	padding:0px;
+	margin:0px;
+
+	text-align:left;
+	vertical-align: top;
+}
+
+#chaps {
+}
+
+#tutorial {
+}
+
+#footer {
+}
+
+#headimg {
+	width:350px;
+}
+hr {
+	margin:0px;
+	border-color: white;
+}

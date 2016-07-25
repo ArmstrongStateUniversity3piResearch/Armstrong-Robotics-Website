@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<!--
+	Institute: Armstrong State University
+	Department: Computer Science
+	Division: Robotics Research
+-->
+<head>
+	<meta charset="UTF-8">
+	<title>Armstrong Robotics Research</title>
+	<style>
+		body {
+			font-family: Georgia;
+			background-color: #7a212e;
+		}
+		a {
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+			opacity: 0.50;
+
+			padding:2px;
+		}
+
+		a:hover {
+			opacity: 1.0;
+		}
+		#content {
+			padding:15px;
+
+			width:350px;
+			margin:auto;
+			margin-top:15%;
+		}
+
+		#content-table {
+			margin:auto;
+			padding:15px;
+		}
+
+		#logo-container {
+			width:100%;
+		}
+
+		@keyframes focusAnimation {
+			from { opacity:0.0;}
+			to { opacity:1.0; }
+		}
+
+		.navAnimate {
+			animation-name: focusAnimation;
+			animation-duration:0.50s;
+			animation-iteration-count:1;
+			animation-direction:alternate;
+		}
+
+		#navigation-container {
+			visibility: hidden;
+			text-align: center;
+			padding:50px;
+			padding-top: 0px;
+		}
+
+		h2 {
+			font-size: 17px;
+
+			text-align: center;
+			color:white;
+			font-weight: normal;
+			padding:0px;
+			margin:0px;
+
+		}
+
+		hr {
+			margin:0px;
+			border-color: white;
+		}
+
+	</style>
+</head>
+
+<body onLoad="loadPageAnim()">
+
+	<script>
+		function showNavigation() {
+			document.getElementById('navigation-container').style.visibility='visible';
+			document.getElementById('navigation-container').className='navAnimate';
+		}
+	</script>
+	
+	<div id="content">
+		<table id="content-table">
+
+			<!-- TABLE ROW FOR HEADER -->
+			<tr id="header">
+
+				<td id="logo-container" onmouseover="showNavigation()">
+					<center><img src="https://www.armstrong.edu/images/uploads/ASU_logo.svg" /></center>
+					<hr/>
+					<center><img src="robotics_in_style.png" /></center>
+				</td>
+
+			</tr>
+
+			<!-- TABLE ROW FOR NAVIGATION -->
+			<tr id="navigation">
+
+				<td id="navigation-container">
+					<hr />
+					<h2>Setting Up</h2>
+					<hr />
+					<a href="3pisetup.pdf">3pi Set Up Tutorial</a><br/>
+					<a href="roboticsdocumentation.pdf">Robotics Program Documentation</a>
+
+					<hr/>
+					<h2>3pi Tutorial</h2>
+					<hr/>
+
+					<a href="IntroductiontoProgrammingWith3pi.pdf">Introduction to Programming With the 3pi</a>
+					
+					<hr/>
+					<h2>3pi Navigation Code</h2>
+					<hr/>
+
+					<a href="ArmstrongNavigation.zip">ArmstrongNavigation</a><br/>
+					
+				</td>
+
+			</tr>
+
+		</table>
+	</div>	
+
+</body>
+
+</html> 
