@@ -46,6 +46,9 @@ li a:hover {
 
 #tutcontent {
 	visibility: hidden;
+	height:0px;
+	position: fixed;
+	z-index: -1;
 }
 
 #navigation {
