@@ -1,0 +1,69 @@
+<div id="LCD">
+
+	<div id="introduction">
+	This would be an introduction for the LCD page
+	</div>
+	
+  <h1>LCD</h1>
+
+  <h2>Overview</h2>
+  <p>This module will cover printing text to the 3pi LCD. You can make the robot print to the LCD when you want to know the status of the robot or if it is following your commands as you programed it. You can find out how much battery the robot has or if it has reached a certain part of the program.</p>
+
+  <h2>Objectives</h2>
+  <ul>
+    <li>Print strings, characters, and numbers to the LCD</li>
+    <li>Format text to fit 8x2 size LCD</li>
+    <li>Neatly displaying more text than can fit in the LCD at a time</li>
+    <li>Use variables and arrays to print text to LCD</li>
+    <li>Use loops and control flow statements to print text to the LCD</li>
+    <li>Become familiar with the following terms, operators, and data types: output, '+', char*, const char*, char[], char[][]</li>
+    <li>Become familiar with the following functions: print, print_character, print_long, lcd_goto_xy, clear, delay, delay_ms, strlen</li>
+  </ul>
+
+  <h2>Need To Know</h2>
+    <ul>
+    <li>Strings, characters, and numbers</li>
+    <li>Variables, arrays, functions, loops, control-flow statements</li>
+  </ul>
+
+  <h2>Tutorial</h2>
+  <p>When you give the 3pi robot some kind of input, often times there is an output. Input is any type of information the robot can receive. Input can be many things like a number, string, or even the pressing of a button. All of these give the robot some kind of information that it can use to do certain actions.</p>
+
+  <p>Output is any type of information the robot gives back to you or an action it does based on the input it received. Like input, output can be many things like a number or a string. The robot can also use the screen (called an LCD) to display text, its lights (called LEDs), and the buzzer (plays music and sounds) for output.</p>
+  
+   <p>In this section you will be shown how to output values to the LCD. Many types of values can be outputted to the LCD but we will use strings for now. The program below shows how the string "Hello" is outputted to the LCD.</p>
+
+  <img src="http://web-students.armstrong.edu/~jm4386/includes/images/tutorials/3pi_basics/LCD/screenshots/Hello.png" alt="Hello.c source file" style="width:300px;height:300px;">
+  <img src="http://web-students.armstrong.edu/~jm4386/includes/images/tutorials/3pi_basics/LCD/pictures/Hello.jpg" alt="Robot displaying Hello" style="width:300px;height:300px;">
+  <p>Figure 1: Hello.c. Prints "Hello" to the LCD</p>
+
+  <p>Using a function called print, one can output strings to the robot's LCD. You should be able to print any character found on your keyboard, like question marks (?), percent signs (%), and dollar signs($). The "while(1);" is also an important part of the program. The "while" is called a loop and in this case it stops the program from ending. Programs for the 3pi robots should not reach the end as it may cause unpredictable behavior.</p>
+
+  <p>You can use the print function again to print more strings onto the LCD. The strings will be printed right after the last string that was printed. For example, you can use another print statement to print "Hi" to the LCD like so:</p>
+
+  <img src="http://web-students.armstrong.edu/~jm4386/includes/images/tutorials/3pi_basics/LCD/screenshots/HelloHi.png" alt="HelloHi.c source file" style="width:300px;height:300px;">
+  <img src="http://web-students.armstrong.edu/~jm4386/includes/images/tutorials/3pi_basics/LCD/pictures/HelloHi.jpg" alt="Robot displaying HelloHi" style="width:300px;height:300px;">
+  <p>Figure 2: HelloHi.c. Prints "HelloHi" to the LCD</p>
+
+  
+  <h2>Summary</h2>
+    <p>The LCD is a good way to let the robot display output.</p>
+
+    <h3>List of used functions</h3>
+    <ul>
+      <li>print(const char *str) - prints a string</li>
+      <li>print_long(long value) - prints a long type number</li>
+      <li>print_character(char c) - prints a character</li>
+      <li>lcd_goto_xy(unsigned char col, unsigned char row) - changes where text will be printed on the LCD</li>
+      <li>clear() - clears the LCD of all text</li>
+      <li>delay_ms(unsigned int milliseconds) - delays the execution of the next lines of code</li>
+      <li>strlen(const char*) - returns length of a string</li>
+    </ul>
+
+  <h2>Questions</h2>
+    <ol>
+      <li>Display two 8-letter words on the LCD at the same time</li>
+      <li>Make a short message appear like it is blinking</li>
+    <ol>
+	
+</div>

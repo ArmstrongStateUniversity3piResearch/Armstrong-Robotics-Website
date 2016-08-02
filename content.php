@@ -1,1 +1,0 @@
-<? require('clanguage.php'); ?>

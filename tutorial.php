@@ -1,4 +1,4 @@
-<?php require('header.php'); ?>
+<?php require('includes/content/header.php'); ?>
 	
 	<script>
 	function renderPage(page) {
@@ -11,7 +11,7 @@
 			<td id="TOC">
 				<div id="chaps">
 					<?
-					require('tutnav.php');
+					require('includes/content/tutnav.php');
 					?>
 				</div>
 			</td>
@@ -23,8 +23,8 @@
 
 	<div id="tutcontent">
 		<?
-		require('content.php');
+		require('includes/content/content.php');
 		?>
 	</div>
 
-<?php require('footer.php'); ?>
+<?php require('includes/content/footer.php'); ?>
