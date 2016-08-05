@@ -10,7 +10,7 @@ div {
 	margin:0px;
 }
 
-ul {
+ul.nav {
 
     list-style-type: none;
     margin: 0;
@@ -19,12 +19,12 @@ ul {
     background-color: #333;
 }
 
-li {
+li.nav {
 	width:20%;
     float: left;
 }
 
-li a {
+li.nav a {
 
     display: block;
     color: white;
@@ -33,11 +33,19 @@ li a {
     text-decoration: none;
 }
 
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-decoration:underline;
+}
+
 a {
 	text-decoration: none;
 }
 
-li a:hover {
+li.nav a:hover {
     background-color: #111;
 }
 
