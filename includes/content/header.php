@@ -43,13 +43,13 @@
 	</div>
 
 	<div id="navigation" class="staticnav">
-			 <ul>
-  				<li><a href="#">ABOUT</a></li>
-  				<li><a href="#">TUTORIAL</a></li>
-  				<li><a href="#">MEDIA</a></li>
-  				<li><a href="#">ASSESSMENT</a></li>
-  				<li><a href="#">BLOG?</a></li>
-			</ul> 
+			 <ul class="nav">
+  				<li class="nav"><a href="#">ABOUT</a></li>
+  				<li class="nav"><a href="#">TUTORIAL</a></li>
+  				<li class="nav"><a href="#">MEDIA</a></li>
+  				<li class="nav"><a href="#">ASSESSMENT</a></li>
+  				<li class="nav"><a href="#">BLOG?</a></li>
+			</ul>
 	</div>
 
 	<div id="content">
