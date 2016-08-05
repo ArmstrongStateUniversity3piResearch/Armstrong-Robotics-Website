@@ -45,6 +45,11 @@ a {
 	text-decoration: none;
 }
 
+a.link {
+	position:absolute;
+	right:10px;
+}
+
 li.nav a:hover {
     background-color: #111;
 }
