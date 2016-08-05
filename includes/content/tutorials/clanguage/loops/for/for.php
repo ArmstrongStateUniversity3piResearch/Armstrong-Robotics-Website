@@ -1,11 +1,10 @@
 <div id="for">
 
 	<div id="introduction">
-	This would be an introduction for the for loops page
+	  <h1>For Loops</h1>
+
+      <h2>Overview</h2>
+      <p>This module will cover for loops.</p>
 	</div>
-		
-	<h2>Header</h2>
-	<img source="pictures/picture.jpg">
-	<img source="screenshots/screenshot.png">
 
 </div>

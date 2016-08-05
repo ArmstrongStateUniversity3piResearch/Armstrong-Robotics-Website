@@ -1,7 +1,7 @@
 <div id="control_flow">
 
 	<div id="introduction">
-	This would be an introduction for the control flow page
+	  <h1>Control Flow</h2>
 	</div>
 	
 	<? require('boolean/boolean.php'); ?>

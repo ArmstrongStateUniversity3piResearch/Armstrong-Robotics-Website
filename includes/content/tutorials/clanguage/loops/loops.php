@@ -1,7 +1,7 @@
 <div id="loops">
 
 	<div id="introduction">
-	This would be an introduction for the loops page
+	  <h1>Loops</h2>
 	</div>
 	
 	<? require('for/for.php'); ?>

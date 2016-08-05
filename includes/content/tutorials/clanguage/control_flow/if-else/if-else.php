@@ -1,11 +1,10 @@
 <div id="if-else">
 
 	<div id="introduction">
-	This would be an introduction for the if-else page
+	  <h1>if-else</h1>
+
+      <h2>Overview</h2>
+      <p>This module will cover if-else statements.</p>
 	</div>
-		
-	<h2>Header</h2>
-	<img source="pictures/picture.jpg">
-	<img source="screenshots/screenshot.png">
 
 </div>

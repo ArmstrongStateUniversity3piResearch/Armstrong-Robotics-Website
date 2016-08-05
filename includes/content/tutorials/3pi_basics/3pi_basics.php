@@ -1,7 +1,7 @@
-<div id="clanguage">
+<div id="3pi_basics">
 
 	<div id="introduction">
-	This would be an introduction for the clanguage page
+	  <h1>3pi Basics</h1>
 	</div>
 	
 	<? require('LCD/LCD.php'); ?>

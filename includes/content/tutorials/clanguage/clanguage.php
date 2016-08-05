@@ -1,7 +1,7 @@
 <div id="clanguage">
 
 	<div id="introduction">
-	This would be an introduction for the clanguage page
+	  <h1>C Language</h1>
 	</div>
 	
 	<? require('variables/variables.php'); ?>

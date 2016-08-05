@@ -1,11 +1,10 @@
 <div id="boolean">
 
 	<div id="introduction">
-	This would be an introduction for the boolean page
+      <h1>Boolean</h1>
+
+      <h2>Overview</h2>
+      <p>This module will cover booleans.</p>
 	</div>
-		
-	<h2>Header</h2>
-	<img source="pictures/picture.jpg">
-	<img source="screenshots/screenshot.png">
 
 </div>

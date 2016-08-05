@@ -3,8 +3,17 @@
 	<title>Armstrong Robotics</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body onscroll="scroll()">
+<script>
+	var p;
+	p = '<?php 
+		if(isset($_GET['p']) && !empty($_GET['p'])){
+			echo htmlspecialchars($_GET['p']);
+		} else {
+			echo 'clanguage';
+		}
+	?>';
+</script>
+<body onscroll="scroll()" onload="renderPage(p)">
 
 	<script>
 	function scroll() {
@@ -43,13 +52,15 @@
 	</div>
 
 	<div id="navigation" class="staticnav">
-			 <ul>
-  				<li><a href="#">ABOUT</a></li>
-  				<li><a href="#">TUTORIAL</a></li>
-  				<li><a href="#">MEDIA</a></li>
-  				<li><a href="#">ASSESSMENT</a></li>
-  				<li><a href="#">BLOG?</a></li>
-			</ul> 
+			 <ul class="nav">
+  				<li class="nav"><a href="#">ABOUT</a></li>
+  				<li class="nav"><a href="#">TUTORIAL</a></li>
+  				<li class="nav"><a href="#">MEDIA</a></li>
+  				<li class="nav"><a href="#">ASSESSMENT</a></li>
+  				<li class="nav"><a href="#">BLOG?</a></li>
+			</ul>
 	</div>
 
 	<div id="content">
+		<div id="ltp">
+		</div>

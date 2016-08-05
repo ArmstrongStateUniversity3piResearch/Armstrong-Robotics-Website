@@ -3,6 +3,7 @@
 	<script>
 	function renderPage(page) {
 		document.getElementById("tutorial").innerHTML=document.getElementById(page).innerHTML;
+		document.getElementById("ltp").innerHTML="<a class=\"link\" href=?p=" + page + " >Link To This Page </a>";
 	}
 	</script>
 
