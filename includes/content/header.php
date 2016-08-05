@@ -3,8 +3,17 @@
 	<title>Armstrong Robotics</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body onscroll="scroll()">
+<script>
+	var p;
+	p = '<?php 
+		if(isset($_GET['p']) && !empty($_GET['p'])){
+			echo htmlspecialchars($_GET['p']);
+		} else {
+			echo 'clanguage';
+		}
+	?>';
+</script>
+<body onscroll="scroll()" onload="renderPage(p)">
 
 	<script>
 	function scroll() {
@@ -53,3 +62,5 @@
 	</div>
 
 	<div id="content">
+		<div id="ltp">
+		</div>
