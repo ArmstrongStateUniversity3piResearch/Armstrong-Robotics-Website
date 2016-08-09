@@ -12,13 +12,13 @@ C Language
 <br/>
 
 <a href="#numerical" onclick="renderPage('numerical')">
-&nbsp;&nbsp;&nbsp;&nbsp; numerical variables
+&nbsp;&nbsp;&nbsp;&nbsp; numerical
 </a>
 
 <br/>
 
 <a href="#string_characters" onclick="renderPage('strings_characters')">
-&nbsp;&nbsp;&nbsp;&nbsp; string and character variables
+&nbsp;&nbsp;&nbsp;&nbsp; string and character
 </a>
 
 <br/>
